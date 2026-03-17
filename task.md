@@ -357,3 +357,12 @@ export interface Question {
 ---
 
 **End of Task List**
+
+
+Took a bit more than two weeks to complete the week 1 module of Ed Donner's LLM-ENGINEERING COURSE.
+After concluding the week 1's exercise, I knew I had to do more with the new knowledge I just gained. Ed would always say "test this model, break something, see how the model thinks, learn from it"  but I could not think of any at the time, I stalled a bit before moving forward to week 2, little did I know an opportunity would present itself in an infant application (mercyDiet: A daily devotional for the church) I and a couple of developers are building as worker's in the tech department in church.
+Version1 is out, the version 2 is to come out soon with new UIs and some other features and one of which is tracking if users actually go through the devotional. We were to track this by using a simple quiz with a done button as check.
+Currently we pull posts (which include texts and links) from wordpress to service the app even though the app still makes use of postgres for authentication (for users previously on wordpress app wanting to log into the mobile app and vice-versa) and upcoming features. To get the questions and answers, someone would have to create new fields and manually input the questions and answer on wordpress so that I pull and serve the application. I thought to myself, that would be tedious, then I remembered my new found superpower and lightly suggested I could auto generate the questions and answers, persist to the postgres database and serve the app of course with no guarantees! lol. I finally completed the app with the help of super claude, ran and tested it, deployed on render and the joy I felt can't be explained. This is just me in my first week utilising my knowledege on frontier models and how to interact with different models using openAI's package.
+Super excited about what is to come. Thank you Ed Donner and to my mentor and friend that recommended the course.
+You will find the public repo here : https://github.com/Aktive134/quizzly
+And interact with the api here: https://quizzly-x9ja.onrender.com/

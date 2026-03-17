@@ -21,6 +21,7 @@ async function bootstrap() {
   await app.listen(port);
 
   console.log(`🚀 Application is running on: http://localhost:${port}`);
+  console.log(`💚 GET  / - Health check and API info`);
   console.log(`📝 POST /questions/generate - Generate questions endpoint`);
 }
 
