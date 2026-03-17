@@ -1,0 +1,17 @@
+node_modules
+npm-debug.log
+dist
+.env
+.env.local
+.git
+.gitignore
+README.md
+.vscode
+.idea
+coverage
+.nyc_output
+test
+*.md
+!CONTRIBUTING.md
+!CODE_OF_CONDUCT.md
+.github
